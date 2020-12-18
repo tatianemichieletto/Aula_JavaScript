@@ -1,5 +1,34 @@
 
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    
+    //alert("Obrigada por clicar");
+}
+
+function redirecionar() {
+    window.open("https://github.com/tatianemichieletto");
+    window.location.href = "https://github.com/tatianemichieletto";
+}
+
+function trocar(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse"
+    elemento.innerHTML = "Obrigado por passar o mouse"
+    //alert("trocar texto");
+}
+
+function voltar(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+    elemento.innerHTML = "Passe o mouse aqui"
+}
+
+function load() {
+    console.log("Seja bem vindo");
+}
+
+function funcaoChange(elemento) {
+    console.log(elemento.value);
+}
 
 /*
 function soma(n1, n2) {
